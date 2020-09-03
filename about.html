@@ -1,0 +1,171 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body::after{
+            display: none;
+        }
+        .navbar{
+            background: linear-gradient(#d31027, #ea384d);
+            padding: 25px 0;
+        }
+        @media (max-width:768px){
+            .navbar{
+                padding: inherit;
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <header>
+        <h1><a href="index.html">Website Logo</a></h1>
+            <nav class="">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header> -->
+
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="index.html" class="logo">One Life <br>Healthcare</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="index.html" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-links">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="page-about">
+        <h2>About Us</h2>
+        <img src="images/abt1.jpeg" alt="" class="docc">
+        <p>One Life Healthcare, Dehradun, the most comprehensive super specialty hospital focussing on Neuro, Cardio, Gastro, Renal Sciences, Trauma and Critical Care is driven by our vision to establish one stop solution that provides medical care in a compassionate manner with focus on the patient needs, expectations, safety and state of the art technology for the people of the region and to address long awaited dire need for a world class quality healthcare institution for everyone. Our institution not only provides world class healthcare technologies under one roof, but also pledges to develop a healthier society. We stand committed to provide value added innovative, consistent and continuously improving health and medical care to sustain and further improve clinical outcomes, patient safety & patient satisfaction 
+
+            <br>We believe that it is due to blessings of Almighty and overwhelming support and patronage of all our people who have posed their trust in us that we have been able to transform our dream into reality. 
+            
+           <br> We dedicate our mission to people of our region with utmost humility.</p>
+        <hr>
+        <div class="page-about-row">
+            <div class="page-about-col">
+                <img src="images/feature01.jpg" alt="">
+            </div>
+            <div class="page-about-col">
+                <div class="page-about-col-text-row">
+                    <div class="page-about-col-text-col">
+                        <span>1</span>
+                        <h3>Bowie Blade Choice Award</h3>
+                        <p>We've been recognized for a Bowie Blade Readers Choice Award.We were chosen: Best Hospital, Best Occupational Therapy, Best Physical Therapy and Best Sleep Specialist categories. </p>
+                    </div>
+                    <div class="page-about-col-text-col">
+                        <span>2</span>
+                        <h3> Healogics Distinction Award</h3>
+                        <p>The 2018 Healogics Distinction Award is reserved for those Centers that have achieved or exceeded outstanding clinical and operational results.  </p>
+                    </div>
+                    <div class="page-about-col-text-col">
+                        <span>3</span>
+                        <h3>Ganey's Top Improver </h3>
+                        <p>Recognizes clients that have shown continuous improvement during the previous two years.Ganey partners with more than 10,000 healthcare facilities and our hospital was one of only 12 clients to receive this honor..</p>
+                    </div>
+                    <div class="page-about-col-text-col">
+                        <span>4</span>
+                        <h3>Excellence Award</h3>
+                        <p>we've been recognized for a Excellence Award. In 2019, we were chosen: Best Hospital, Best Occupational Therapy, Best Physical Therapy and Best Sleep Specialist categories.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="page-about-col">
+                <div class="page-about-col-text-row-2">
+                    <div class="page-about-col-text-col-2">
+                        <div class="sub-div">
+                            <span>
+                                <i class="fa fa-magic" aria-hidden="true"></i>
+                            </span>
+                            <h3>Why Choose Us</h3>
+                            <p><ul>
+                               <li> Hospital of the patients, for the patients by their doctors.</li> 
+                               <li> Centrally located and connected to major routes.</li>
+                               <li> Maximum super specialty services at one place.</li>
+                               <li>Patient friendly, world class quality infrastructure.</li>
+                               <li>State of the art, cutting edge medical technology.</li>
+                               <li> Qualified and experienced team of full time doctors.</li>
+                               <li>  In compliance to international quality standards.</li>
+                               <li> Affordable and accessible to every section of society.</li>
+                               <li>Providing 'total health & wellness', not just to treat illness.</li>
+                            </ul></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page-about-col">
+                <img src="images/feature02.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="our-newsletter">
+        <div class="newsletter-content">
+            <h2>Subscribe Our Newsletter</h2>
+            <p>Together, We are working toward a healthier community</p>
+            <hr>
+            <p class="signup">Signup to recieve our latest updates</p>
+            <form>
+                <input type="email" placeholder="Please Enter Your Email">
+                <button class="btn">Subscribe now</button>
+            </form>
+        </div>
+        <div class="newsletter-overlay"></div>
+    </section>
+
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col footer-col-1">
+                <h3 class="footer-title">Contact Us</h3>
+                <p class="footer-text">0123456789</p>
+                <p class="footer-text">abc@gmail.com</p>
+                <p class="footer-text">Shamli</p>
+            </div>
+            <div class="footer-col footer-col-2">
+                <h3 class="footer-title">Social Media</h3>
+                <p class="footer-text">Linekdin</p>
+                <p class="footer-text">Facebook</p>
+                <p class="footer-text">Instagram</p>
+            </div>
+            <div class="footer-col footer-col-3">
+                <h3 class="footer-title">Contact Us</h3>
+                <p class="footer-text">0123456789</p>
+                <p class="footer-text">abc@gmail.com</p>
+                <p class="footer-text">Shamli</p>
+            </div>
+            <div class="footer-col footer-col-4">
+                <h3 class="footer-title">Social Media</h3>
+                <p class="footer-text">Linekdin</p>
+                <p class="footer-text">Facebook</p>
+                <p class="footer-text">Instagram</p>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2020. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+
+</body></html>

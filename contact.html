@@ -1,0 +1,144 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body::after{
+            display: none;
+        }
+        .navbar{
+            background: linear-gradient(#d31027, #ea384d);
+            padding: 25px 0;           
+        }
+        @media (max-width:768px){
+            .navbar{
+                padding: inherit;
+                padding-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <header>
+        <h1><a href="index.html">Website Logo</a></h1>
+            <nav class="">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header> -->
+
+    <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="index.html" class="logo">One Life <br>Healthcare</a>
+        <ul class="main-nav" id="js-menu">
+            <li>
+                <a href="index.html" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-links">About Us</a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-links">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="page-contact">
+        <h2>Contact Us</h2>
+        <p>World-class care where you need it.</p>
+        <hr>
+        <div class="page-contact-row">
+            <div class="page-contact-col">
+                <form>
+                    <div class="input_name">  
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input_email">  
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input_phone">  
+                        <input type="text" placeholder="Phone">
+                    </div>
+                    <!-- <div class="input_subject">  
+                        <input type="text" placeholder="Subject">
+                    </div> -->
+                    <div class="textarea_message">  
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="input_btn">
+                        <a href="javascript:void(0)">Submit</a>
+                    </div>
+                </form>
+            </div>
+            <div class="page-contact-col">
+                <h3>Have any question?</h3>
+                <p>Feel free to contact Us.</p>
+                <div class="contact-icons">
+                    <i class="fa fa-phone" aria-hidden="true"></i> <h4>0123456789</h4> <br>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <h4>abc@gmail.com</h4> <br>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i> <h4>Shamli</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-newsletter">
+        <div class="newsletter-content">
+            <h2>Subscribe Our Newsletter</h2>
+            <p>Together, We are working toward a healthier community.</p>
+            <hr>
+            <p class="signup">Signup to recieve our latest updates</p>
+            <form>
+                <input type="email" placeholder="Please Enter Your Email">
+                <button class="btn">Subscribe now</button>
+            </form>
+        </div>
+        <div class="newsletter-overlay"></div>
+    </section>
+
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col footer-col-1">
+                <h3 class="footer-title">Contact Us</h3>
+                <p class="footer-text">0123456789</p>
+                <p class="footer-text">abc@gmail.com</p>
+                <p class="footer-text">Shamli</p>
+            </div>
+            <div class="footer-col footer-col-2">
+                <h3 class="footer-title">Social Media</h3>
+                <p class="footer-text">Linekdin</p>
+                <p class="footer-text">Facebook</p>
+                <p class="footer-text">Instagram</p>
+            </div>
+            <div class="footer-col footer-col-3">
+                <h3 class="footer-title">Contact Us</h3>
+                <p class="footer-text">0123456789</p>
+                <p class="footer-text">abc@gmail.com</p>
+                <p class="footer-text">Shamli</p>
+            </div>
+            <div class="footer-col footer-col-4">
+                <h3 class="footer-title">Social Media</h3>
+                <p class="footer-text">Linekdin</p>
+                <p class="footer-text">Facebook</p>
+                <p class="footer-text">Instagram</p>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2020. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+
+</body></html>
